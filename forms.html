@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="forms_style.css">
+    <title> </title>
+</head>
+<body>
+    <h1 style="text-align: center; font-weight: bolder;">G-Code login Portal</h1>
+    <form action="form_submission.html" method="get" target="_blank" style="color: red; background-color: gold; font-weight: bolder; font-size: larger; text-transform: capitalize;">
+        <fieldset>
+            <img src="G-code logo.png" height="250" width="250" style="float: right;"><br>
+            <legend>Login  form</legend>
+            <label>G-code Id.No</label>
+            <input type="number" required><br>
+            <label>password</label>
+            <input type="password" required ><br> 
+            <label>Branch</label><br>
+                <input type="radio" name="branch" value="CSE" >CSE<br>
+    <input type="radio" name="branch" value="IT">IT<br>
+    <input type="radio" name="branch" value="CIVIL">Civil<br>
+    <input type="radio" name="branch" value="MECHANICAL">Mechanical<br>
+    <input type="radio" name="branch" value="ELECTRICAL">Electrical<br>
+    <input type="radio" name="branch" value="ELECTRONICS">Electronics<br>
+    <input type="radio" name="branch" value="OTHER">Other<br>
+    <br>
+
+            <label>Roll</label>
+            <input type="number" required><br><br>
+                <label>Semester</label><br>
+    <input type="radio" name="Semester" value="1">1<br>
+    <input type="radio" name="Semester" value="2">2<br>
+    <input type="radio" name="Semester" value="3">3<br>
+    <input type="radio" name="Semester" value="4">4<br>
+    <input type="radio" name="Semester" value="5">5<br>
+    <input type="radio" name="Semester" value="6">6<br><br>
+
+            <label>email</label>
+    <input type="email" name="email" required><br>
+    <label>date of birth</label>
+    <input type="date" name="date" required><br><br>
+    <label>last semester marks</label>
+    <input type="text" name="qualification" required   ><br><br>
+    <label>upload last semester marksheet</label>
+        <input type="file" name="marksheet" accept=".pdf" required><br><br>
+
+    <label>favorite color</label>
+    <input type="color" name="favcolor" required><br><br>
+    <label>hobbies</label><br>
+    <input type="checkbox" name=" hobby" value="playing sports">playing sports<br>
+    <input type="checkbox" name=" hobby" value="playing indoor games">playing indoor games<br>
+    <input type="checkbox" name=" hobby" value="playing video games">playing video games<br>
+    <input type="checkbox" name=" hobby" value="book reading">book reading<br>
+    <input type="checkbox" name=" hobby" value="coding">coding<br>
+    <input type="checkbox" name=" hobby" value="others">others<br>
+    <input type="reset" value="reset">
+    <input type="submit" value="Login">
+    </form>
+</body>
+</html>
